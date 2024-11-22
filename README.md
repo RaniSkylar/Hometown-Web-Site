@@ -42,7 +42,7 @@ This project was built using:
 1. **Clone or Download the Repository**  
    - Clone:  
      ```bash
-     git clone https://github.com/raniskylar/johor-bahru-website.git
+     git clone https://github.com/RaniSkylar/Hometown-Web-Site.git
      ```  
    - Or download the `.zip` file and extract it.  
 
