@@ -128,3 +128,59 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+
+/* Carousel container */
+#img-list {
+    display: flex; 
+    gap: 10px; 
+    overflow: hidden; 
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+
+/* Carousel images */
+#img-list img {
+    max-height: 300px; 
+    border-radius: 10px;
+    box-shadow: 0 4px 6px #A64D79; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#img-list img:hover {
+    transform: scale(1.1); 
+    box-shadow: 0 6px 8px #A64D79; 
+}
+
+/* Buttons */
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #6A1E55;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #A64D79; 
+}
+
+/* Center buttons below the carousel */
+#prev-button,
+#next-button {
+    margin: 0 10px;
+}
+
+/* Center container for the buttons */
+.button-container {
+    display: flex;
+    justify-content: center; 
+    gap: 20px; 
+}
+

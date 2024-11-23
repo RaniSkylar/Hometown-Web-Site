@@ -19,15 +19,15 @@
     <!-- Navigation Menu -->
     <nav class="nav">
         <ul>
-            <li><a href="#history">History</a></li>
-            <li><a href="#landmarks">Landmarks</a></li>
-            <li><a href="#things-to-do">Things to Do</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#history-section">History</a></li>
+            <li><a href="#landmarks-section">Landmarks</a></li>
+            <li><a href="#things-to-do-section">Things to Do</a></li>
+            <li><a href="#contact-section">Contact</a></li>
         </ul>
     </nav>
 
-    <!-- Sections for History, Landmarks, etc. -->
-    <section class="section history">
+    <!-- id history-section here used for nav bar link -->
+    <section id="history-section" class="section history">
         <h2>History of JOHOR BAHRU</h2>
         <p>Today, Johor remains the nation's largest trade contributor among all Malaysian states. The state is also a
             major logistics hub in Malaysia, home to the Port of Tanjung Pelepas, the 15th busiest port in the
@@ -37,7 +37,8 @@
         <img src="/images/johor-history.jpg" alt="Historical landmarks"> 
     </section>
 
-    <section class="section landmarks">
+    <!-- id landmarks-section here used for nav bar link -->
+    <section id="landmarks-section" class="section landmarks">
         <h2>Discover the famous landmarks in JOHOR BAHRU</h2>
         <div class="card">
             <h3>Arulmigu Sri Rajakaliamman Glass Temple</h3>
@@ -64,7 +65,8 @@
         </div>
     </section>
 
-    <section class="section things-to-do">
+    <!-- id things-to-do-section here used for nav bar link -->
+    <section id="things-to-do-section" class="section things-to-do">
         <h2>Legoland Malaysia Resort</h2>
         <p>Legoland Malaysia Resort is a theme park in Iskandar Puteri, Johor, Malaysia. It opened on 15 September 2012
             with over 40 interactive rides, shows and attractions. It is the first Legoland theme park in Asia and sixth
@@ -89,7 +91,18 @@
         <img src="/images/water-park.jpg" alt="Adventure Waterpark Desaru Coast">
     </section>
 
-    <section class="section contact">
+    <section class="section things-to-do">
+        <h2>More Places To Explore</h2>
+        <div>
+            <div id="img-list"></div>
+            <div class="button-container">
+                <button id="prev-button">Previous</button>
+                <button id="next-button">Next</button>
+            </div>
+        </div>        
+    </section>    
+
+    <section id="contact-section" class="section contact">
         <h2>Contact Us</h2>
         <p>If you want to know more about our hometown, feel free to reach out:</p>
         <address>
@@ -102,7 +115,7 @@
     <footer class="footer">
         <p>&copy; 2024 Johor Bahru. All rights reserved.</p>
     </footer>
-
+    <script src="index.js"></script>
 </body>
 
 </html>
